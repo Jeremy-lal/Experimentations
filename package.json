@@ -1,0 +1,22 @@
+{
+  "name": "parallax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel locomotive/index.html",
+    "curtain": "parcel curtainjs/index.html",
+    "prod": "parcel buil locomotive/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "curtainsjs": "^7.1.1",
+    "locomotive-scroll": "^3.6.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.0"
+  }
+}

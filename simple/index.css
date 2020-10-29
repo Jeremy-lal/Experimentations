@@ -1,0 +1,17 @@
+
+body {
+    height: 200vh;
+}
+
+h1 {
+    text-align: center;
+    padding: 10rem;
+}
+
+.parallax {
+    padding: 12em 0;
+    background-image: url('https://lh3.googleusercontent.com/proxy/3gYCcnEEmH38PLc2POwsWQGshOQffTc5vAYmmu-q-MR_M5K2oZMMvALinjC2zPOaZNHfZQeu8GK9CsHFpo9dWlJDecARC1n-v5vijrmljZX_yq0VkN0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}

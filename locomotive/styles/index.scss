@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Nurito', Arial;
+}
+
+section {
+  height: 100vh;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  &:first-child {
+    background-color: blue;
+    color: white;
+  }
+  &:last-child {
+    background-color: black;
+    color: white;
+  }
+}
+
+.custom-p {
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.scroll-class {
+  opacity: 1;
+}
